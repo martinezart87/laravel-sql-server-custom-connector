@@ -13,7 +13,9 @@ We are waiting for an official hotfix: https://github.com/microsoft/msphpsql/iss
 ## Edit AppServiceProvider
 
 At Your Laravel project open App\Providers\AppServiceProvider.php add folowing line:
+
 ```use Martinezart87\CustomSqlServerConnector\CustomSqlServerConnector;```
 
 And add into register method following line:
+
 ```$this->app->bind('db.connector.sqlsrv', CustomSqlServerConnector::class);```
