@@ -6,11 +6,12 @@ This package fix error:
 
 We are waiting for an official hotfix: https://github.com/microsoft/msphpsql/issues/1474
 
-## Install package
+## Installation 
 
 ```composer require martinezart87/laravel-sql-server-custom-connector```
 
 ## Edit AppServiceProvider
 
-Add:
+At Your Laravel project open App\Providers\AppServiceProvider.php and add into register method following line:
+
 ```$this->app->bind('db.connector.sqlsrv', CustomSqlServerConnector::class);```

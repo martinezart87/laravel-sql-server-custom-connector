@@ -3,7 +3,7 @@
 namespace Martinezart87\CustomSqlServerConnector;
 use Illuminate\Database\Connectors\SqlServerConnector;
 
-class CustomSqlServerConnector extends CustomSqlServerConnector
+class CustomSqlServerConnector extends SqlServerConnector
 {
 
     protected $options = [
