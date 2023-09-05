@@ -1,6 +1,6 @@
 <?php
 
-namespace Database\Connectors;
+namespace Martinezart87\CustomSqlServerConnector;
 use Illuminate\Database\Connectors\SqlServerConnector;
 
 class CustomSqlServerConnector extends CustomSqlServerConnector

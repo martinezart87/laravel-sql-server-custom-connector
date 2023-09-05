@@ -9,3 +9,8 @@ We are waiting for an official hotfix: https://github.com/microsoft/msphpsql/iss
 ## Install package
 
 ```composer require martinezart87/laravel-sql-server-custom-connector```
+
+## Edit AppServiceProvider
+
+Add:
+```$this->app->bind('db.connector.sqlsrv', CustomSqlServerConnector::class);```
