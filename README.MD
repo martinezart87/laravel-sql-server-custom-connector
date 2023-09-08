@@ -4,7 +4,8 @@ This package fix error:
 
 ```Fatal error: Uncaught PDOException: SQLSTATE[IMSSP]: An invalid attribute was designated on the PDO object```
 
-We are waiting for an official hotfix: https://github.com/microsoft/msphpsql/issues/1474
+~We are waiting for an official hotfix: https://github.com/microsoft/msphpsql/issues/1474~
+The official PHP driver patch for SQL Server has been released. There is no need to install this package if you update the driver: https://github.com/microsoft/msphpsql/releases/tag/v5.11.1
 
 ## Installation 
 
